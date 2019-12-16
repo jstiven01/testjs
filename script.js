@@ -36,8 +36,8 @@ const circle_constructor = new Circle(35);
 circle_constructor.draw()
 
 //Adding-Deleting properties
-const circle_new_properties = new Circle(343)
-circle_new_properties.location = { x: 5 }
-const propertyName = 'access from square brackets'
-circle_new_properties[propertyName] = { y:6 }
+const circle_new_properties = new Circle(343);
+circle_new_properties.location = { x: 5 };
+const propertyName = 'access from square brackets';
+circle_new_properties[propertyName] = { y:6 };
 delete circle_new_properties[propertyName];
